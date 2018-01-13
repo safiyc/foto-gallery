@@ -1,0 +1,15 @@
+img {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 20px;
+  border: 2px solid #ced0d2;
+}
+
+.jumbotron {
+  background: #ced0d2;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+}
