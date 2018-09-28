@@ -1,8 +1,16 @@
+html body {
+  font-size: 16px
+}
+
 img {
   width: 100%;
-  padding: 6px;
-  margin-bottom: 20px;
-  border: 2px solid #ced0d2;
+  padding: .4rem;
+  margin-bottom: 1.5rem;
+  border: .125rem solid #ced0d2;
+}
+
+img:hover {
+  border-color: grey;
 }
 
 .jumbotron {
@@ -10,6 +18,24 @@ img {
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.5rem;
   font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+  .jumbotron {
+    margin-top: 2.5rem;
+  }
+
+  .jumbotron > h1 {
+    font-size: 2rem;
+  }
+
+  .jumbotron > p {
+    font-size: 1rem;
+  }
+
+  .nav-item > a {
+    text-align: right;
+  }
 }
